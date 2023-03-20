@@ -1,0 +1,30 @@
+.no-margin {
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 0rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    font-size: 1.2rem;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+}
+
+.cart {
+    display: flex;
+}
