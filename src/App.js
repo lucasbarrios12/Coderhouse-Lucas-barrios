@@ -4,11 +4,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //components
 
 import Header from "./components/Header/Header";
+import ItemDetailContainer from "./Pages/ItemDetailContainer/ItemDetailContainer"
 
 //Pages
-import Inicio from "./Pages/Inicio";
-import Tienda from "./Pages/Tienda";
-import Recomendaciones from "./Pages/Recomendaciones";
+import Inicio from "./Pages/inicio/Inicio";
+import Tienda from "./Pages/tienda/Tienda";
+import Recomendaciones from "./Pages/recomendaciones/Recomendaciones";
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
             <Route path="/" element={<Inicio />} />
             <Route path="/tienda" element={<Tienda />} />
             <Route path="/recomendaciones" element={<Recomendaciones />} />
+            <Route path="/detail/:id" element={<ItemDetailContainer />} />
           </Routes>
         </div>
       </Router>
