@@ -1,7 +1,9 @@
 import React from 'react'
-import CartWidget from '../CartWidget/CartWidget'
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
+import CartItems from '../CartContent/CartItems/CartItems';
 
 
 const Navbar = () => {
@@ -10,12 +12,9 @@ const Navbar = () => {
         <h1 className='no-margin'>My Brand</h1>
         <ul className='nav-list no-margin'>
             <Link to="/" className='nav-item' >INICIO</Link>
-            <Link to="/tienda" className='nav-item'>TIENDA </Link>
-            <Link to="/recomendaciones" className='nav-item'>RECOMENDACIONES</Link>
-            <li className='cart'>
-                <CartWidget />
-                <span>5</span>
-            </li>
+            <Link to="/contacto" className='nav-item'>CONTACTO </Link>
+            <Link to="/about" className='nav-item'>SOBRE NOSOTROS</Link>
+            <Link to="/cart" className='nav-item'><ShoppingCartIcon /><CartItems/></Link>
         </ul>
     </div>
   )

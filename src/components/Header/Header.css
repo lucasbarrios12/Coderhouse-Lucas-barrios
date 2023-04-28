@@ -1,0 +1,39 @@
+
+.banner{
+    background-image: url(./elrescate1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    max-width: 100%;
+    
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    height: 40rem;
+    color: rgb(214, 214, 214);
+}
+
+.banner-image{
+    width: 20rem;
+    height: 30rem;
+}
+
+.title-banner {
+    font-size: 4rem;
+    
+}
+
+.button-banner {
+    background-color: rgb(29, 23, 63);
+    color: aliceblue;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    
+}

@@ -1,0 +1,19 @@
+.card-container {
+    width: 12rem;
+    height: 20rem;
+}
+
+.pelicula-poster {
+    width: 12rem;
+    height: 14rem;
+}
+
+.pelicula-titulo {
+    color: white;
+    margin-top: 4px;
+}
+
+.pelicula-salida{
+    color: white;
+    margin-top: 4px;
+}

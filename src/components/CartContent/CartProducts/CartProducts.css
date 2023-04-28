@@ -1,0 +1,22 @@
+.carrito-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.carrito-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.poster-carrito {
+    height: 14rem;
+    width: 10rem;
+}
+.cruz {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 3rem;
+    
+}

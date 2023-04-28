@@ -1,7 +1,17 @@
-.container {
+.CardListContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     margin-top: 3rem;
-    gap: 2rem;
+    gap: 3rem;
+}
+
+.button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+
+    
 }

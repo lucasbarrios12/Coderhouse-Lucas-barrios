@@ -2,8 +2,42 @@
     display: flex;
     gap: 1rem;
     padding: 1rem;
-    background-color: #aeb5d2;
+    background-color: rgb(168, 79, 79);
     width: 60rem;
     border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.pelicula-img {
+    width: 17rem;
+    height: 22rem;
+}
+
+
+.item-info {
+   display: flex;
+   flex-direction: column;
+   width: 30rem;
+}
+
+.sinopsis {
+    margin-top: 0;
+}
+
+.item-etiqueta {
+    font-weight: bold;
+}
+
+.genero {
+    font-weight: 400;
+}
+
+.button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+
     
 }

@@ -1,34 +1,16 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
 
-import img from "./producto.png"
+import "./CardWidget.css"
 
-const CardWidget = ({ data }) => {
+
+const CardWidget = ({ peliculasData }) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          image={img}
-          alt="product"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            {data.username}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {data.name}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {data.email}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+
+      <div className='card-container'>
+        <img className='pelicula-poster' src={peliculasData.poster} alt={peliculasData.pelicula}/>
+        <h3 className='pelicula-titulo'>{peliculasData.pelicula}</h3>
+        <p className='pelicula-salida' > {peliculasData.año}</p>
+      </div>
   );
 } 
 
